@@ -649,8 +649,9 @@ video {
   letter-spacing: 0.025em;
 }
 
-.text-black\/60 {
-  color: rgb(0 0 0 / 0.6);
+.text-grayishPurple {
+  --tw-text-opacity: 1;
+  color: hsl(292 16% 49% / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -664,6 +665,10 @@ video {
   background-repeat: no-repeat;
 }
 
+i, img {
+  max-width: 30px;
+}
+
 i:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -671,6 +676,7 @@ i:hover {
 
 .accordion-item:hover {
   cursor: pointer;
+  color: hsl(280.92,82.98%,53.92%);
 }
 
 @media (max-width: 375px) {
