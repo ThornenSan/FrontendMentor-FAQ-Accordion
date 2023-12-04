@@ -681,7 +681,7 @@ i:hover {
 
 @media (max-width: 375px) {
   .bg-image {
-    background-image: url("/assets/images/background-pattern-mobile.svg");
+    background-image: url("../css/assets/images/background-pattern-mobile.svg");
   }
 }
 
