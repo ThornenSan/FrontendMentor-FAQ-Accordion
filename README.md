@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live Site URL]()
+- Solution URL: [Solution URL](https://github.com/ThornenSan/FrontendMentor-FAQ-Accordion.git)
+- Live Site URL: [Live Site URL](https://thornensan.github.io/FrontendMentor-FAQ-Accordion/)
 
 ## My process
 
