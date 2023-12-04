@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+  background-image: url("/assets/images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.accordion-item:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .bg-image {
+    background-image: url("/assets/images/background-pattern-mobile.svg");
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-image {
+    background-size: contain;
+  }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ accordion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div
+      class="flex items-center justify-center h-screen bg-lightPink bg-image"
+    >
+      <!-- Card -->
+      <div
+        class="flex flex-col w-[85%] rounded-xl bg-white py-4 shadow-2xl md:-translate-y-14 md:w-[570px] md:rounded-2xl"
+      >
+        <!-- FAQ -->
+        <div class="flex items-center mt-5 mb-3 ml-7 md:ml-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="41"
+            fill="none"
+            viewBox="0 0 40 41"
+            class="pr-5 w-12 h-12 md:w-14 md:h-14"
+          >
+            <path
+              fill="#AD28EB"
+              d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z"
+            />
+          </svg>
+          <h1 class="font-bold text-4xl md:text-5xl">FAQs</h1>
+        </div>
+
+        <!-- Accordion Container -->
+        <div class="flex flex-col divide-y-2 divide-slate-400/10 px-7 md:px-10">
+          <!-- Accordion 1 -->
+          <div class="py-4 accordion-item active">
+            <!-- Header -->
+            <div
+              class="accordion-header flex justify-between w-full items-center"
+            >
+              <p class="font-bold md:font-semibold md:tracking-wide">
+                What is Frontend Mentor, and how will it help me?
+              </p>
+
+              <i class="fa-plus">
+                <img src="./assets/images/icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./assets/images/icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <!-- Content -->
+            <div class="accordion-content">
+              <p class="text-black/60 text-[16px] py-4">
+                Frontend Mentor offers realistic coding challenges to help
+                developers improve their frontend coding skills with projects in
+                HTML, CSS, and JavaScript. It's suitable for all levels and
+                ideal for portfolio building.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion 2 -->
+          <div class="py-4 accordion-item">
+            <!-- Header -->
+            <div
+              class="accordion-header flex justify-between w-full items-center"
+            >
+              <p class="font-bold md:font-semibold tracking-wide">
+                Is Frontend Mentor free?
+              </p>
+
+              <i class="fa-plus">
+                <img src="./assets/images/icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./assets/images/icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <!-- Content -->
+            <div class="accordion-content">
+              <p class="text-black/60 text-[16px] py-4">
+                Yes, Frontend Mentor offers both free and premium coding
+                challenges, with the free option providing access to a range of
+                projects suitable for all skill levels.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion 3 -->
+          <div class="py-4 accordion-item">
+            <!-- Header -->
+            <div
+              class="accordion-header flex justify-between items-center w-full"
+            >
+              <p class="font-bold md:font-semibold tracking-wide">
+                Can I use Frontend Mentor projects in my portfolio?
+              </p>
+
+              <i class="fa-plus">
+                <img src="./assets/images/icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./assets/images/icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <!-- Content -->
+            <div class="accordion-content">
+              <p class="text-black/60 text-[16px] py-4">
+                Yes, you can use projects completed on Frontend Mentor in your
+                portfolio. It's an excellent way to showcase your skills to
+                potential employers!
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion 4 -->
+          <div class="py-4 accordion-item">
+            <!-- Header -->
+            <div
+              class="accordion-header flex justify-between items-center w-full"
+            >
+              <p class="font-bold md:font-semibold tracking-wide">
+                How can I get help if I'm stuck on a challenge?
+              </p>
+              <i class="fa-plus">
+                <img src="./assets/images/icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./assets/images/icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <!-- Answer -->
+            <div class="accordion-content">
+              <p class="text-black/60 text-[16px] py-4">
+                The best place to get help is inside Frontend Mentor's Discord
+                community. There's a help channel where you can ask questions
+                and seek support from other community members.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/ThornenSan" target="_blank">Thornen San</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
