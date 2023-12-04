@@ -59,5 +59,5 @@ Users should be able to:
 ## Acknowledgments
 
 I copied some of the Javascript code from [Gbenga Ayoola].
-You can check the live site url Here - [https://gayoola.github.io/faq_accordion/]
+You can check his live site url Here - [https://gayoola.github.io/faq_accordion/]
 
